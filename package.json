@@ -1,18 +1,17 @@
 {
-  "name": "xsanz-info-bot",
-  "version": "1.7.0",
-  "description": "Bot Telegram Cek ID dan Info Management by XSANZ",
-  "main": "index.js",
+  "name": "xsanz-jasher-bot",
+  "version": "1.0.0",
+  "description": "Bot Jasher by XSANZ",
+  "main": "run.js",
   "scripts": {
-    "start": "node xsanz.js"
+    "start": "node run.js"
   },
-  "author": "XSANZ",
-  "license": "ISC",
   "dependencies": {
     "telegraf": "^4.16.3",
-    "axios": "^1.6.7",
     "moment-timezone": "^0.5.45",
     "chalk": "^4.1.2",
     "fs": "0.0.1-security"
-  }
+  },
+  "author": "XSANZ",
+  "license": "ISC"
 }
